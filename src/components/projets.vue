@@ -12,7 +12,7 @@ defineProps({
   <div class="container">
   <div class="row d-flex justify-content-around">
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="..." alt="Card image cap">
+      <img class="card-img-top" src="" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Groupomania</h5>
     <p class="card-text">Projet effectué dans le cadre de la formation OpenClassrooms. Réalisation d'un réseau social d'entreprise, projet FullStack, from scratch.</p>
@@ -20,7 +20,7 @@ defineProps({
   </div>
 </div>
     <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <img class="card-img-top" src="" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Piiquante</h5>
     <p class="card-text">Projet effectué dans le cadre de la formation OpenClassrooms. Réalisation d'une api pour un site de référencement de sauce piquante.</p>
@@ -28,7 +28,7 @@ defineProps({
   </div>
 </div>
     <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <img class="card-img-top" src="" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Orinoco</h5>
     <p class="card-text">Projet effectué dans le cadre de la formation OpenClassrooms. Réalisation du front uniquement en js pour un site de e-commerce.</p>
