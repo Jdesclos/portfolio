@@ -1,6 +1,9 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
+  "engines": {
+    "node": "16.13.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -21,8 +24,5 @@
     "eslint-plugin-vue": "^8.2.0",
     "prettier": "^2.5.1",
     "vite": "^2.7.13"
-  },
-  "engines": {
-    "node": ">=6.9.0"
   }
 }
