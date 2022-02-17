@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview --port 5050",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "start": "npm install vite"
+    "start":"vite"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
@@ -23,6 +23,6 @@
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^8.2.0",
     "prettier": "^2.5.1",
-    "vite": "^2.8.3"
+    "vite": "^2.7.13"
   }
 }
