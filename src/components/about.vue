@@ -62,7 +62,9 @@ h1 {
 h3 {
   font-size: 1.2rem;
 }
-
+.rounded-circle{
+  max-width: 65%;
+}
 .greetings h1,
 .greetings h3 {
   text-align: center;
