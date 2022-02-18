@@ -12,13 +12,19 @@ defineProps({
     <div class="col-md-4">
       <img class="rounded-circle mr-2 mw-50" src="../assets/ProfilePicture.jpg">
     </div>
-    <div class="col-md-8 d-flex">
+    <!-- <div class="col-md-8 d-flex">
       <div class="ms-auto d-flex flex-column justify-content-around px-5">
-        <p class="lead">Hi i'm Julien! Junior web developper based in Rennes. Just graduated, I continue to practice in order to offer you a fast, safe and ergonomic work. You will find above my deliverables rendered in the context of the Openclassrooms training as well as other personal or professional projects. Specialized in node JS and vue JS, I would be able to realize your back, front or fullstack projects. Check out my latest projects <RouterLink to="/projets">here</RouterLink></p>
+        <p class="lead">Hi i'm Julien! Junior web developper based in Rennes. Just graduated, I continue to practice in order to offer you a fast, safe and ergonomic work. You will find above my deliverables rendered in the context of the Openclassrooms training as well as other personal or professional projects. Specialized in node JS and vue JS, I would be able to realize your back, front or fullstack projects. Check out my latest projects <RouterLink to="/projets">here.</RouterLink></p>
         <span class="text-center">icones des languages</span>
       </div>
     </div>
-  </div>
+  </div> -->
+  <div class="col-md-8 d-flex">
+      <div class="ms-auto d-flex flex-column justify-content-around px-5">
+        <p class="lead">Bonjour, je m'appelle Julien ! Développeur web junior basé à Rennes. Tout juste diplômé, je continue à pratiquer afin de vous proposer un travail rapide, sûr et ergonomique. Vous trouverez ci-dessus mes livrables rendus dans le cadre de la formation Openclassrooms ainsi que d'autres projets personnels ou professionnels. Spécialisé en node JS et vue JS, je serais en mesure de réaliser vos projets back, front ou fullstack. Consultez mes derniers projets<RouterLink to="/projets">ici.</RouterLink></p>
+        <span class="text-center">icones des languages</span>
+      </div>
+    </div>
   <div class="text-center px-5">
      <div class="divider-custom-line"></div>
     <h3>Mes derniers projets</h3>
