@@ -25,6 +25,7 @@ defineProps({
         <span class="text-center">icones des languages</span>
       </div>
     </div>
+  </div>
   <div class="text-center px-5">
      <div class="divider-custom-line"></div>
     <h3>Mes derniers projets</h3>
