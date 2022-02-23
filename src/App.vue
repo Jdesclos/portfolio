@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header class="d-md-flex align-middle mb-5">
-    <h1 class="col-md-4 fs-1">Desclos Julien</h1>
+    <h1 class="col-md-4 fs-1"><RouterLink to="/">Desclos Julien</RouterLink></h1>
     <nav class="d-md-flex col-md-8 fs-1 flex-row-reverse">
       <RouterLink class="mx-3 fs-1" to="/projets">Projets</RouterLink>
       <RouterLink class="mx-3 fs-1" to="/">About</RouterLink>
@@ -24,6 +24,9 @@ header{
   background-color: #c4e2ca;
   min-height: 5rem;
   padding: 2rem 0rem 2rem 5rem;
+}
+header a {
+  color: #3583ca;
 }
 @media (max-width: 767.98px) {
   header{
