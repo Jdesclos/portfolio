@@ -32,7 +32,7 @@ defineProps({
      <div class="divider-custom-line"></div>
   </div>
 <div class=" container d-md-flex justify-content-around">
-  <div class="card mx-auto mt-5 text-center" style="width: 20rem;">
+  <div class="card mx-auto mt-5 text-center" style="width: 25rem;">
       <img class="card-img-top img-fluid" src="../assets/icon-above-font.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Groupomania</h5>
@@ -40,7 +40,7 @@ defineProps({
     <a onclick="window.open(this.href); return false" href="https://github.com/Jdesclos/P7_DesclosJulien_1072021-backend" class="btn btn-primary fs-3">GitHub</a>
   </div>
 </div>
-    <div class="card mx-auto mt-5 text-center" style="width: 20rem;">
+    <div class="card mx-auto mt-5 text-center" style="width: 25rem;">
   <img class="card-img-top" src="../assets/16275605596354_PiiquanteLogo.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Piiquante</h5>
@@ -48,7 +48,7 @@ defineProps({
     <a onclick="window.open(this.href); return false" href="https://github.com/Jdesclos/P6_DesclosJulien_1072021" class="btn btn-primary fs-3">GitHub</a>
   </div>
 </div>
-     <div class="card mx-auto mt-5 text-center" style="width: 20rem;">
+     <div class="card mx-auto mt-5 text-center" style="width: 25rem;">
   <img class="card-img-top" src="../assets/15675819263013_image1.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Orinoco</h5>
@@ -82,7 +82,7 @@ h3 {
 .divider-custom-line {
   width: 100%;
   max-width: 7rem;
-  height: 0.20rem;
+  height: 0.25rem;
   background-color: #c4e2ca;
   border-radius: 1rem;
   border-color: #c4e2ca;
@@ -90,5 +90,10 @@ h3 {
 }
 .container-xxl{
   max-width: 3000px;
+}
+@media (max-width: 767.98px) {
+  .card{
+    width: 25rem !important;
+  }
 }
 </style>

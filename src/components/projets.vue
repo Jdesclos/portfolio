@@ -11,7 +11,7 @@ defineProps({
 <div class="divider-custom-line"></div>
   <div class="container">
   <div class="row d-md-flex justify-content-around">
-    <div class="card mt-5 mx-auto text-center" style="width: 20rem;">
+    <div class="card mt-5 mx-auto text-center" style="width: 25rem;">
       <img class="card-img-top img-fluid" src="../assets/icon-above-font.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Groupomania</h5>
@@ -19,7 +19,7 @@ defineProps({
     <a onclick="window.open(this.href); return false" href="https://github.com/Jdesclos/P7_DesclosJulien_1072021-backend" class="btn btn-primary">GitHub</a>
   </div>
 </div>
-    <div class="card mt-5 mx-auto text-center" style="width: 20rem;">
+    <div class="card mt-5 mx-auto text-center" style="width: 25rem;">
   <img class="card-img-top" src="../assets/16275605596354_PiiquanteLogo.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Piiquante</h5>
@@ -27,7 +27,7 @@ defineProps({
     <a onclick="window.open(this.href); return false" href="https://github.com/Jdesclos/P6_DesclosJulien_1072021" class="btn btn-primary">GitHub</a>
   </div>
 </div>
-    <div class="card mt-5 mx-auto text-center" style="width: 20rem;">
+    <div class="card mt-5 mx-auto text-center" style="width: 25rem;">
   <img class="card-img-top" src="../assets/15675819263013_image1.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Orinoco</h5>
@@ -35,7 +35,7 @@ defineProps({
     <a onclick="window.open(this.href); return false" href="https://github.com/Jdesclos/DesclosJulien_5_01072021" class="btn btn-primary">GitHub</a>
   </div>
 </div>
-<div class="card mt-5 mx-auto text-center" style="width: 20rem;">
+<div class="card mt-5 mx-auto text-center" style="width: 25rem;">
   <img class="card-img-top" src="../assets/15553465193309_icon-above-font.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">La chouette agence</h5>
@@ -43,7 +43,7 @@ defineProps({
     <a onclick="window.open(this.href); return false" href="https://github.com/Jdesclos/DesclosJulien_04_01072021" class="btn btn-primary">GitHub</a>
   </div>
 </div>
-<div class="card mt-5 mx-auto text-center" style="width: 20rem;">
+<div class="card mt-5 mx-auto text-center" style="width: 25rem;">
   <img class="card-img-top" src="../assets/ohmyfood@2x.svg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Ho my food</h5>
@@ -51,7 +51,7 @@ defineProps({
     <a onclick="window.open(this.href); return false" href="https://jdesclos.github.io/DesclosJulien_3_01072021/" class="btn btn-primary">Voir le site</a>
   </div>
 </div>
-<div class="card mt-5 mx-auto text-center" style="width: 20rem;">
+<div class="card mt-5 mx-auto text-center" style="width: 25rem;">
   <img class="card-img-top" src="../assets/Reservia.svg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Reservia</h5>
@@ -75,5 +75,10 @@ defineProps({
 .card-img-top{
   object-fit: contain;
   height: 60%;
+}
+@media (max-width: 767.98px) {
+  .card{
+    width: 20rem !important;
+  }
 }
 </style>
