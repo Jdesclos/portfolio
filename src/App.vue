@@ -1,7 +1,9 @@
 <script setup>
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { RouterLink, RouterView } from "vue-router";
+
 </script>
 
 <template>
@@ -11,16 +13,34 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink class="mx-3 fs-1" to="/projets">Projets</RouterLink>
       <RouterLink class="mx-3 fs-1" to="/">About</RouterLink>
       <p><a class="mx-3 fs-1" href="mailto:desclos.julien@gmail.com">Email</a></p>
-      <p><a class="mx-3 fs-1" href="src/assets/cv Dev web Desclos Julien.pdf" download>Mon cv</a></p>
+      <p id="thumwrap"><a @mouseover="displayCv()" class="mx-3 fs-1 thumb" href="src/assets/cv Dev web Desclos Julien.pdf" download alt="Télécharger mon cv">Mon cv</a></p>
       <p><a onclick="window.open(this.href); return false" class="mx-3 fs-1" href="https://www.linkedin.com/in/julien-desclos-2a5486204/">Linkedin</a></p>
     </nav>
   </header>
+  <div id="cv" v-if="show" ><a href="src/assets/cv Dev web Desclos Julien.pdf" download alt="Télécharger mon cv"><img class="cvImg" src="./assets/cv dev web Desclos Julien.png"></a> <span @click="displayCv()">croix</span></div>
   <RouterView />
 </template>
-
+<script>
+export default {
+  data() {
+    return {
+      show: false,
+  };
+  },
+  methods: {
+    displayCv() {
+      if(this.show != true){
+        this.show = true;
+      }else{
+        this.show = false;
+      }
+    },
+  },
+}
+</script>
 <style>
 @import "@/assets/base.css";
-header{
+header {
   background-color: #c4e2ca;
   min-height: 5rem;
   padding: 2rem 0rem 2rem 5rem;
@@ -50,7 +70,14 @@ p{
   display: block;
   margin: 0 auto 2rem;
 }
-
+#cv {
+  text-align: center;
+}
+#cv img {
+  max-width: 45rem;
+  max-height: 55rem;
+  object-fit: contain;
+}
 a,
 .green {
   text-decoration: none;
@@ -69,6 +96,8 @@ nav a.router-link-exact-active {
 
 nav a.router-link-exact-active:hover {
   background-color: transparent;
+  text-decoration: underline;
+  transform: scale(1.2);
 }
 
 nav a {
@@ -81,4 +110,12 @@ nav a:first-of-type {
   border: 0;
 }
 
+a:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+.cvImg:hover{
+transform: scale(1.1);
+transition-duration: 1000;
+}
 </style>
