@@ -13,11 +13,11 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink class="mx-3 fs-1" to="/projets">Projets</RouterLink>
       <RouterLink class="mx-3 fs-1" to="/">About</RouterLink>
       <p><a class="mx-3 fs-1" href="mailto:desclos.julien@gmail.com">Email</a></p>
-      <p id="thumwrap"><a @mouseover="displayCv()" class="mx-3 fs-1 thumb" href="src/assets/cv Dev web Desclos Julien.pdf" download alt="Télécharger mon cv">Mon cv</a></p>
+      <p id="thumwrap"><a @mouseover="displayCv()" class="mx-3 fs-1 thumb" href="src/assets/cv_Dev_web_Desclos_Julien.pdf" download alt="Télécharger mon cv">Mon cv</a></p>
       <p><a onclick="window.open(this.href); return false" class="mx-3 fs-1" href="https://www.linkedin.com/in/julien-desclos-2a5486204/">Linkedin</a></p>
     </nav>
   </header>
-  <div id="cv" v-if="show" ><a href="src/assets/cv Dev web Desclos Julien.pdf" download alt="Télécharger mon cv"><img class="cvImg" src="./assets/cv dev web Desclos Julien.png"></a> <span @click="displayCv()">croix</span></div>
+  <div id="cv" v-if="show" ><a href="src/assets/cv_Dev_web_Desclos_Julien.pdf" download alt="Télécharger mon cv"><img class="cvImg" src="./assets/cv_dev_web_Desclos_Julien.png"></a> <span @click="displayCv()">croix</span></div>
   <RouterView />
 </template>
 <script>
