@@ -13,11 +13,11 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink class="mx-3 fs-1" to="/projets">Projets</RouterLink>
       <RouterLink class="mx-3 fs-1" to="/">About</RouterLink>
       <p><a class="mx-3 fs-1" href="mailto:desclos.julien@gmail.com">Email</a></p>
-      <p id="thumwrap"><a @mouseover="displayCv()" class="mx-3 fs-1 thumb" href="src/assets/cv_Dev_web_Desclos_Julien.pdf" download alt="Télécharger mon cv">Mon cv</a></p>
+      <p id="thumwrap"><a @click="displayCv()" class="mx-3 fs-1 thumb" href="#" alt="Télécharger mon cv">Mon cv</a></p>
       <p><a onclick="window.open(this.href); return false" class="mx-3 fs-1" href="https://www.linkedin.com/in/julien-desclos-2a5486204/">Linkedin</a></p>
     </nav>
   </header>
-  <div id="cv" v-if="show" ><a href="src/assets/cv_Dev_web_Desclos_Julien.pdf" download alt="Télécharger mon cv"><img class="cvImg" src="./assets/cv_dev_web_Desclos_Julien.png"></a> <span @click="displayCv()">croix</span></div>
+  <div id="cv" class="d-flex justify-content-center" v-if="show" ><a href="src/assets/cv_Dev_web_Desclos_Julien.pdf" download alt="Télécharger mon cv"><img class="cvImg" title="Télécharger le cv" src="./assets/cv_dev_web_Desclos_Julien.png"></a> <button @click="displayCv()" class="btn-cross" >X</button></div>
   <RouterView />
 </template>
 <script>
@@ -117,5 +117,14 @@ a:hover {
 .cvImg:hover{
 transform: scale(1.1);
 transition-duration: 1000;
+}
+.btn-cross{
+  height: 25px;
+  width: 20px;
+  padding: 0px;
+  border: none;
+  background-color: white;
+  color: red;
+  font-size: 2rem;
 }
 </style>
