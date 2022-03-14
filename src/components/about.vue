@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="container-xxl d-md-flex px-5">
-    <div class="col-md-4">
+    <div class="col-md-4 text-center">
       <img class="rounded-circle mr-2 mw-50" src="../assets/ProfilePicture.jpg">
     </div>
     <!-- <div class="col-md-8 d-flex">
@@ -31,8 +31,8 @@ defineProps({
     <h3 class="fs-1">Mes derniers projets</h3>
      <div class="divider-custom-line"></div>
   </div>
-<div class=" container d-md-flex justify-content-around">
-  <div class="card mx-auto mt-5 text-center" style="width: 25rem;">
+<div class="d-md-flex justify-content-between">
+  <div class="card mx-5 mt-5 text-center" >
       <img class="card-img-top img-fluid" src="../assets/icon-above-font.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Groupomania</h5>
@@ -40,7 +40,7 @@ defineProps({
     <a onclick="window.open(this.href); return false" href="https://github.com/Jdesclos/P7_DesclosJulien_1072021-backend" class="btn btn-primary fs-3">GitHub</a>
   </div>
 </div>
-    <div class="card mx-auto mt-5 text-center" style="width: 25rem;">
+    <div class="card mx-5 mt-5 text-center" >
   <img class="card-img-top" src="../assets/16275605596354_PiiquanteLogo.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Piiquante</h5>
@@ -48,7 +48,7 @@ defineProps({
     <a onclick="window.open(this.href); return false" href="https://github.com/Jdesclos/P6_DesclosJulien_1072021" class="btn btn-primary fs-3">GitHub</a>
   </div>
 </div>
-     <div class="card mx-auto mt-5 text-center" style="width: 25rem;">
+     <div class="card mx-5 mt-5 text-center" >
   <img class="card-img-top" src="../assets/15675819263013_image1.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title fs-2">Orinoco</h5>
