@@ -91,9 +91,5 @@ h3 {
 .container-xxl{
   max-width: 3000px;
 }
-@media (max-width: 767.98px) {
-  .card{
-    width: 25rem !important;
-  }
-}
+
 </style>
