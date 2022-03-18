@@ -53,6 +53,10 @@ header a {
     text-align: center;
     padding: 0px;
   }
+  #cv img {
+  max-width: 20rem !important;
+  margin-bottom: 5rem;
+  }
 }
 footer{
   background-color: #c4e2ca;

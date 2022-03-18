@@ -91,5 +91,9 @@ h3 {
 .container-xxl{
   max-width: 3000px;
 }
-
+@media (max-width: 767.98px) {
+ .container-xxl{
+   padding: 0 !important;
+ }
+}
 </style>
