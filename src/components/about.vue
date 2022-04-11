@@ -21,7 +21,10 @@ defineProps({
   </div> -->
   <div class="col-md-8 d-md-flex">
       <div class="ms-auto d-flex flex-column justify-content-around px-5 w-80">
-        <p class="lead fs-3"><span class="fs-1">Bonjour</span>,<br> je m'appelle Julien ! Développeur web junior basé à Rennes. Tout juste diplômé, je continue à pratiquer afin de vous proposer un travail rapide, sûr et ergonomique. Vous trouverez ci-dessus mes livrables rendus dans le cadre de la formation Openclassrooms ainsi que d'autres projets personnels ou professionnels. Spécialisé en node JS et vue JS, je serais en mesure de réaliser vos projets back, front ou fullstack. Consultez mes derniers projets <RouterLink to="/projets">ici.</RouterLink></p>
+        <p class="lead fs-3"><span class="fs-1">Bonjour</span>,<br> je m'appelle Julien ! Concepteur développeur d'applications en recherche d'alternance basé à Rennes. 
+        En formation à l'école ENI de rennes, je recherche une alternance pour 2 ans. 
+        Vous trouverez ci-dessus mes livrables rendus dans le cadre de la formation Openclassrooms ainsi que d'autres projets personnels ou professionnels. 
+        Spécialisé en node JS et vue JS, je serais en mesure de réaliser vos projets back, front ou fullstack. Consultez mes derniers projets <RouterLink to="/projets">ici.</RouterLink></p>
         <span class="text-center"><font-awesome-icon icon="fa-brands fa-vuejs" /> <font-awesome-icon icon="fa-brands fa-bootstrap" /></span>
       </div>
     </div>

@@ -17,7 +17,7 @@ import { RouterLink, RouterView } from "vue-router";
       <p><a onclick="window.open(this.href); return false" class="mx-3 fs-1" href="https://www.linkedin.com/in/julien-desclos-2a5486204/">Linkedin</a></p>
     </nav>
   </header>
-  <div id="cv" class="d-flex justify-content-center" v-if="show" ><a href="src/assets/cv_Dev_web_Desclos_Julien.pdf" download alt="Télécharger mon cv"><img class="cvImg" title="Télécharger le cv" src="./assets/cv_dev_web_Desclos_Julien.png"></a> <button @click="displayCv()" class="btn-cross" >X</button></div>
+  <div id="cv" class="d-flex justify-content-center" v-if="show" ><a href="src/assets/cv_concepteur_developpeur_application_Desclos_Julien.pdf" download alt="Télécharger mon cv"><img class="cvImg" title="Télécharger le cv" src="./assets/cv_concepteur_developpeur_application_Desclos_Julien.png"></a> <button @click="displayCv()" class="btn-cross" >X</button></div>
   <RouterView />
 </template>
 <script>
